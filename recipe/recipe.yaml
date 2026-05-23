@@ -14,7 +14,7 @@ source:
   sha256: a18bc447fff0dd0d76a2e6cd4a603b4712047c027f9bbbdc31ebc25f0e2c1ed9
 
 build:
-  number: 0
+  number: 1
   skip:
     - win
   script: |
@@ -25,7 +25,6 @@ build:
         -Dintrospection=true \
         -Dgtkdoc=false \
         -Dtests=false \
-        -Dintrospection=false \
         builddir
     ninja -v -C builddir -j ${CPU_COUNT}
     ninja -C builddir install -j ${CPU_COUNT}

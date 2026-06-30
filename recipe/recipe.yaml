@@ -33,13 +33,13 @@ requirements:
   build:
     - ${{ compiler('c') }}
     - ${{ stdlib('c') }}
-    - meson >=0.60.0
+    - meson >=0.58.2
     - ninja
     - pkg-config
     - gobject-introspection
   host:
     - glib
-    - glib >=2.45.8
+    - glib >=2.56.0
     - zlib
     - gobject-introspection
   run_exports:

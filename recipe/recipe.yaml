@@ -35,7 +35,7 @@ requirements:
     - ${{ stdlib('c') }}
     - meson >=0.58.2
     - ninja
-    - pkg-config
+    - pkgconf
     - gobject-introspection
   host:
     - glib

@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: libxmlb
-  version: "0.3.29"
+  version: "0.3.30"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://github.com/hughsie/${{ name }}/releases/download/${{ version }}/${{ name }}-${{ version }}.tar.xz
-  sha256: 448294be33bfae62f00fa66e506f1cae80237ce71b7ab6530aefa75005eeb08a
+  sha256: 2cb894b873aac5fc9e9b6228d4e795f7236d16e429ed2de8f95179a131be3a68
 
 build:
   number: 0
